@@ -25,4 +25,7 @@ head(ca)
 ggplot(data = ca) + 
   geom_point(aes(x = year, y = visitors))
 ```
-
+```{r, eval = F}
+ggplot(data = ca) +
+    geom_point(aes(x = year, y = visitors, color = park_name))
+```
